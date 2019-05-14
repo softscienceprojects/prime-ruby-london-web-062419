@@ -2,7 +2,7 @@
 def prime?(n)  #given a variable n
   for i in n-1..1
   #  if n / i != 1
-      puts "#{n} / #{i}"
+      puts "n: #{n} / i: #{i}"
 
   #  end
     # i / n !== 1 || 0
