@@ -5,9 +5,10 @@ def prime?(n)  #given a variable n
     if  n % i == 0
       prime = true
     end
-prime
+
     # i / n !== 1 || 0
   end
+  prime
 end
 
 # WILSON'S THEOREM
