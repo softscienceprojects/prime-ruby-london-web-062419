@@ -9,7 +9,7 @@ def prime?(n)  #given a variable n
         prime = false
       end
       # i / n !== 1 || 0
-  end
+    end
   end
   prime
 end
