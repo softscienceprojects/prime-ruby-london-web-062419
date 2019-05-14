@@ -1,9 +1,8 @@
 # Add  code here!
 def prime?(n)  #given a variable n
   for i in 1..n-1
-    if i / n != 1 || 0
-      puts "n: #{n} / i: #{i}"
-
+    if (i/n != 1)
+      puts "#{i} / #{n}"
      end
     # i / n !== 1 || 0
   end
