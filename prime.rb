@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(n)  #given a variable n
   prime = true
-  if n < 0
+  if n <= 0
     prime = false
   else
     for i in 2..n-1
