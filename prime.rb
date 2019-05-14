@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(n)  #given a variable n
+  prime = true
   if n < 0
     prime = false
   else
