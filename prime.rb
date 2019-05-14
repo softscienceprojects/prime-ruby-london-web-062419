@@ -10,6 +10,7 @@ def prime?(n)  #given a variable n
     end
     # i / n !== 1 || 0
   end
+  end
   prime
 end
 
