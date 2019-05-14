@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(n)  #given a variable n
-  for i in 1..n-1
+  for i in n-1..1
     if n / i != 1
       puts "#{n} / #{i}"
 
