@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(n)  #given a variable n
   for i in 1..n-1
-    if n / i !== 1 
+    if n / i !== 1
       puts "n / i !== 1"
     end
 
