@@ -1,8 +1,9 @@
 # Add  code here!
 def prime?(n)  #given a variable n
+  prime = false
   for i in 2..n-1
-     if n % i == 0
-     end
+      n % i == 0
+
     # i / n !== 1 || 0
   end
 end
