@@ -5,10 +5,10 @@ def prime?(n)  #given a variable n
     prime = false
   else
     for i in 1..n-1
-    if  n % i == 0
-      prime = true
-    end
-    # i / n !== 1 || 0
+      if  n % i == 0
+        prime = true
+      end
+      # i / n !== 1 || 0
   end
   end
   prime
